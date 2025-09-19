@@ -1,0 +1,482 @@
+body{
+    max-width: 100%;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    /* overflow: hidden; */
+    margin: 0;
+    z-index: 100;
+     background-image: url(./icon/aesthetic\ wallpaper\ iphone\ black.jpg);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: auto;
+    padding: 20px 15px;
+    position:sticky;
+    top: 0;
+    background-color: white;
+}
+.div1{
+    color: #bd091a;
+    font-size: 20px;
+    gap: 10px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.explore{
+    color:black;
+    font-size: 18px;
+    margin-left: 10px;
+    position: relative;
+    padding: 14px;
+    border-radius: 20px;
+}
+.explore:hover{
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+ .About:hover{
+    text-decoration: underline;
+}
+.Bussinesses:hover{
+    text-decoration: underline;
+ }
+ .Create:hover{
+    text-decoration: underline;
+ }
+ .News:hover{
+    text-decoration: underline;
+ }
+.div2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #2C4BE2;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.login{
+    height: 40px;
+    color: white;
+    background-color: #e60023;
+    border-radius: 10px;
+    width: 70px;
+    border: none;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.signup{
+    height: 40px;
+    color: black;
+    background-color: #dadad3;
+    border-radius: 10px;
+    width: 70px;
+    margin-top: -10px;
+    border: none;
+}
+.content{
+    display: flex;
+    justify-content: space-between; 
+    /* align-items: center; */ 
+    text-align: center;
+    /* background-image: url(./icon/aesthetic\ wallpaper\ iphone\ black.jpg); */
+    /* height: 950px; */
+
+}
+.left{
+    margin:  260px 160px; 
+    font-size: 35px;
+    color: white;
+}
+.right{
+    height: 730px;
+    width: 400px;
+   /* border: 1px solid black; */
+    margin: 0px 120px 0px 0px;
+    padding: 10px 40px;
+    background-color: white;
+    border: none;
+    margin-top: 30px;
+}
+.inner-image{
+    height: 60px;
+    width: 400px;
+    background-color:#EBEFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.image-right{
+    margin: 10px 10px 0px 0px;
+}
+.right-text{
+    text-align: center;
+    font-size: 20px; 
+    /* display: flex;
+    justify-content: space-between;   */
+}
+.email{
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 10px;
+    height: 30px;
+}
+.email-label{
+    font-size: 14px;
+    margin-bottom: -5px;
+    margin-right: 250px;
+}
+.password{
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 10px;
+    height: 30px;
+}
+.password-label{
+    font-size: 14px;
+    margin-bottom: -5px;
+    margin-right: 250px;
+}
+.forget{
+    font-size: 14px;
+    color: #2C4BE2;
+    cursor: pointer;
+    margin-left: -180px;
+}
+.login1{
+    font-size: 14px;
+    color: white;
+    background-color: #e60023;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 65%;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.OR{
+    text-align: center;
+    margin: 15px 0;
+}
+.google{
+    height: 20px;
+    width: 65%;
+    text-align: center;
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 10px;
+    padding: 10px 5px;
+    cursor: pointer;
+    margin: 0px 60px ;
+    display: flex;
+}
+.Continue{
+    margin-left: 50px;
+}
+.qr-code{
+    height: 20px;
+    width: 65%;
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 10px;
+    margin: 0px 60px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.use{
+    margin-left:50px;
+}
+.span{
+    font-size: 12px;
+    color: grey;
+    margin-right:10px ;
+}
+.container{
+    display: flex;
+    height: 870px;
+}
+.content1{
+     height: 860px;
+    width: 50%;
+    background-image: url(./image/inner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    height: 860px;
+    width: 50%;
+    background-color: #FFE2EB;
+    text-align: center;
+}
+.aa{
+    height: 380px;
+    width: 200px;
+    position: absolute;
+     background-image: url(./image/inner2.png);
+    margin: 200px 95px;
+    border-radius: 20px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.ab{
+    height: 100px;
+width: 100px;
+background-image: url(./image/creator-avatar-262dfeba.png);
+position: absolute;
+margin-top: 520px;
+margin-left: 50px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.inner-div-text{
+    color: white;
+    text-align: center;
+    margin: 590px 150px;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    font-size: 70px;
+   
+    margin-top: 170px;
+      color: #C32F00;
+      text-align: center;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 80px;
+}
+   .para{
+    font-size: 25px; 
+      color: #C32F00;
+      text-align: center;
+      margin-bottom: 210px;
+    font-weight: 540;
+   }
+ .Explore{
+    text-align: center;
+    height: 30px;
+    width: 70px;
+    background-color: #CC001f;
+    color: white; 
+    padding: 5px 2px;
+    margin: 0px 430px;
+    border-radius: 12px;
+    margin-top: -180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #2C4BE3;
+    margin-left: 400px;
+    font-size: 14.4px;
+}
+.footer div:hover{
+    text-decoration: underline;
+
+}
+.ba{
+    display: flex;
+    background-color: #d9fef5;
+    height: 900px;
+    width: 100%;
+    gap: 100px;
+}
+.bc{
+    color: #036B6c;
+    height: 870px;
+    width: 50%;
+}
+.bca{
+   margin-top: 380px;
+    margin-left: 200px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1px;
+}
+.bcb{
+    margin-left: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.Explore1{
+    text-align: center;
+    height: 30px;
+    width: 70px;
+    background-color: #CC001f;
+    color: white; 
+    padding: 20px 2px;
+    margin: 0px 400px;
+    border-radius: 12px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border: none; 
+}
+.bb{
+    display: flex;
+}
+.bb-image1{
+    background-image: url(./image/future-home-vibes-adb19e98.png);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    margin-top: 60px;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    background-blend-mode:overlay;
+}
+.bb-text{
+    font-size: 60px;
+    font-weight: 500;
+    position: absolute;
+    color: white;
+    margin-top: 130px;
+    margin-left: 40px;
+}
+.bba{
+    height: 120px;
+    width: 100px;
+    background-image: url(./image/future-home1-b8bc36e8.png);
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 30px;
+    background-size: cover;
+}
+.bbb{
+    height: 120px;
+    width: 100px;
+    background-image: url(./image/adetola\ 2.png);
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 260px;
+    background-size: cover;
+}
+.bbc{
+    height: 120px;
+    width: 100px;
+    background-image: url(./image/adetola3.png);
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 260px;
+    background-size: cover;
+}
+.bb-image2{
+    height: 250px;
+    width: 300px;
+     border-radius: 70px; 
+   margin-top: 60px;
+   background-image: url(./image/scandinavian-bedroom-696dfba5.png);
+   background-size: cover;
+   background-position: center;
+   background-color: 0,rgb(0, 0,0, 0.3);
+   margin-left: 50px;
+}
+.bb-text2{
+    font-size: 35px;
+    font-weight: 600px;
+    margin-top: 125px;
+    color: white;
+    margin-left: 30px;
+}
+.cc{
+    display: flex;
+
+}
+.cc-image{
+    height: 150px;
+    width: 180px;
+   background-image: url(./image/deck-of-dreams-205a139e.png);
+    border-radius: 50px;
+    margin-left: 480px;
+    background-color: rgb(0, 0,0, 0.3);
+    background-blend-mode: overlay;
+    background-size: cover;
+    margin-top: -100px;
+}
+.cc-text{
+    font-size: 25px;
+    font-weight: 600px;
+    color: white;
+    margin-top: 75px;
+    margin-left: 20px;
+}
+.dd{
+    display: flex;
+}
+.dd-image{
+    height: 200px;
+    width: 220px;
+   background-image: url(./image/serve-my-drinks-4de83489.png);
+    border-radius: 50px;
+    margin-left: 150px;
+    background-color: rgb(0, 0,0, 0.3);
+    background-blend-mode: overlay;
+    background-size: cover;
+    margin-top: 40px;
+}
+.dd-text{
+    font-size: 25px;
+    font-weight: 600px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 30px;
+    padding-top: -90px;
+}
+.ee{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ee-image{
+     height: 200px;
+    width: 220px;
+   background-image: url(./image/bathroom-upgrade-02599fd4.png);
+    border-radius: 50px;
+    margin-left: 280px;
+    background-color: rgb(0, 0,0, 0.3);
+    background-blend-mode: overlay;
+    background-size: cover;
+    margin-top: -180px;
+}
+.ee-text{
+     font-size: 25px;
+    font-weight: 600px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-top: 70px;
+}
